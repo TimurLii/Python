@@ -21,10 +21,10 @@ print(stepen(3, 5))
 # Функция не должна ничего выводить, только возвращать значение.
 # sum(2, 2)
 # # 4
-def sum(a, b, z=0):
-    if z ==a:
+def sum(a, b):
+    if b < 1:
         return a
-    return sum(a, b, z + 1) + 1
+    return sum(a + 1, b - 1)
 
 
-print(sum(4, 4))
+print(sum(8, 0))
