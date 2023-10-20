@@ -48,10 +48,16 @@ for i in text:
     if i == "Р":
         count += 1
         mass.append(count)
-        # print(mass)
+        print(mass)
     else:
+        # mass.append(count)
         count = 0
+print(mass)
+print(max)
 maximum = max(mass)
 print(maximum)
 
 # заполнять массив цифрами пвторяющихся букв Р , потом найти максимальное число в это массиве
+
+
+
