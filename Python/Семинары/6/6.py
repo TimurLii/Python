@@ -95,3 +95,32 @@
 # unton
 # Sample Output 2:
 # 1 2 7 8
+# stroki = []
+# count = int(input(" Количество холодильников:"))
+# for i in range(0, count):
+#     if i != count:
+#         x = input("Введите код :")
+#         stroki.append(x)
+# print(stroki)
+
+# code = "anton"
+# word = ["gylfole", " 0000a0000n00t00000o000000n", "222anton456"]
+# count = 0
+# for i in range(1, len(word)):
+#     for j in word[i]:
+#         for k in code:
+#             if k ==j:
+#                 print(i)
+
+
+
+
+# code = "anton"
+# word = ["gylfole", " 0000a0000n00t00000o000000n", "222anton456", "a1n1t1o1n1", "richard", "ant0n"]
+# count = 0
+# for i in range(1,len(word)):
+#     for j in word[i]:
+#         for k in code:
+#             if j == k:
+# print(word1)
+
