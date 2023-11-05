@@ -85,11 +85,11 @@ print(os.getcwd())
     #
     # print(56)
 
-# path = "file.txt"
-# data = open("file.txt", "r")
-# for line in data :
-#     print(line)
-# data.close()
+path = "file.txt"
+data = open("file.txt", "r")
+for line in data :
+    print(line)
+data.close()
 
 # print(os.path.basename("D:\GeekBrains\2.Python\Python\Лекции\4+funkcii_vicshego_poryadka"))
 # print(os.path.abspath("funkcii_vicshego_poryadka.py"))
